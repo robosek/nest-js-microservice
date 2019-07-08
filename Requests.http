@@ -1,0 +1,28 @@
+### Add product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name" : "Super produkt"
+}
+
+### Get products
+GET http://localhost:3000/products
+Content-Type: application/json
+
+### Delete product
+DELETE http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "id": "5d239b6d6084c6003167bf4c" 
+}
+
+### Update product
+PUT http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "id": "5d239dbe753f160031100044" ,
+    "name": "new super name"
+}
